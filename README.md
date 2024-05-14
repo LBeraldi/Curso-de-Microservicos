@@ -26,7 +26,7 @@ Para utilizar os exemplos de código e executar os exercícios práticos, siga a
 
 Se você encontrar algum problema, ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## ☎️Contato
+## ☎️ Contato
 
 Para mais informações sobre o curso, entre em contato conosco em [lucas.beraldiso@gmail.com](Lucas:lucas.beraldiso@gmail.com).
 
