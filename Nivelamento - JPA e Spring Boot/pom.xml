@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.lberaldi</groupId>
-	<artifactId>microservices</artifactId>
+	<artifactId>Nivelamento - JPA e Spring Boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservices</name>
 	<description>microservices</description>
