@@ -1,4 +1,4 @@
-package io.github.lberaldi.greetingservice;
+package io.github.lberaldi.greetingservice.model;
 
 public class Greeting {
 	
