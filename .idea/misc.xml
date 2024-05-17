@@ -8,7 +8,17 @@
         <option value="$PROJECT_DIR$/Config-server/pom.xml" />
         <option value="$PROJECT_DIR$/Greeting-service/pom.xml" />
         <option value="$PROJECT_DIR$/Book-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Book-service 2/pom.xml" />
+        <option value="$PROJECT_DIR$/Cambio-Service 2/pom.xml" />
+        <option value="$PROJECT_DIR$/naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Api-gateway/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Book-service 2/pom.xml" />
+        <option value="$PROJECT_DIR$/Cambio-Service 2/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">

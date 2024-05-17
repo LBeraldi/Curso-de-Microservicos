@@ -12,17 +12,17 @@ public class Cambio implements Serializable {
     private String to;
     private Double conversionFactor;
     private Double convertedValue;
-    private String envronment;
+    private String environment;
 
     public Cambio(){}
 
-    public Cambio(Long id, String from, String to, Double conversionFactor, Double convertedValue, String envronment) {
+    public Cambio(Long id, String from, String to, Double conversionFactor, Double convertedValue, String environment) {
         this.id = id;
         this.from = from;
         this.to = to;
         this.conversionFactor = conversionFactor;
         this.convertedValue = convertedValue;
-        this.envronment = envronment;
+        this.environment = environment;
     }
 
     @Override
@@ -30,12 +30,12 @@ public class Cambio implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Cambio cambio = (Cambio) o;
-        return Objects.equals(getId(), cambio.getId()) && Objects.equals(getFrom(), cambio.getFrom()) && Objects.equals(getTo(), cambio.getTo()) && Objects.equals(getConversionFactor(), cambio.getConversionFactor()) && Objects.equals(getConvertedValue(), cambio.getConvertedValue()) && Objects.equals(getEnvronment(), cambio.getEnvronment());
+        return Objects.equals(getId(), cambio.getId()) && Objects.equals(getFrom(), cambio.getFrom()) && Objects.equals(getTo(), cambio.getTo()) && Objects.equals(getConversionFactor(), cambio.getConversionFactor()) && Objects.equals(getConvertedValue(), cambio.getConvertedValue()) && Objects.equals(getEnvironment(), cambio.getEnvironment());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getFrom(), getTo(), getConversionFactor(), getConvertedValue(), getEnvronment());
+        return Objects.hash(getId(), getFrom(), getTo(), getConversionFactor(), getConvertedValue(), getEnvironment());
     }
 
     public Long getId() {
@@ -78,11 +78,11 @@ public class Cambio implements Serializable {
         this.convertedValue = convertedValue;
     }
 
-    public String getEnvronment() {
-        return envronment;
+    public String getEnvironment() {
+        return environment;
     }
 
-    public void setEnvronment(String envronment) {
-        this.envronment = envronment;
+    public void setEnvironment(String environment) {
+        this.environment = environment;
     }
 }
