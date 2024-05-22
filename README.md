@@ -38,3 +38,4 @@ Para mais informações sobre o curso, entre em contato conosco em [lucas.berald
 ![image](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=Spring-Boot&logoColor=white)
 ![image](https://img.shields.io/badge/Spring-6DB33F.svg?style=for-the-badge&logo=Spring&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+[![.github/workflows/docker-publish.yml](https://github.com/LBeraldi/Curso-de-Microservicos/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/LBeraldi/Curso-de-Microservicos/actions/workflows/docker-publish.yml)
