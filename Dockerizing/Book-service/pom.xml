@@ -98,6 +98,10 @@
 			<artifactId>micrometer-observation</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>io.opentelemetry</groupId>
 			<artifactId>opentelemetry-exporter-zipkin</artifactId>
 		</dependency>
